@@ -391,7 +391,7 @@
       (net 78 /VRAM/RD3))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/DIP-28_600.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/DIP-28_600.wrl
       (offset (xyz 7.5 -16.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -507,7 +507,7 @@
       (net 55 "/Input connector & power/DATA4"))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 70 "/VRAM Decoding Logic/~RAS"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/DIP-40_600.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/DIP-40_600.wrl
       (offset (xyz 7.5 -24 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -548,7 +548,7 @@
       (net 2 GND))
     (pad 1 thru_hole rect (at 3.75 -3.75 180) (size 1.4 2.5) (drill oval 0.7 2) (layers *.Cu *.Mask F.SilkS)
       (net 57 "/Input connector & power/SOUNDOUT"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/RCA_red.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/RCA_red.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.8 1 0.8))
       (rotate (xyz 0 0 0))
@@ -589,7 +589,7 @@
       (net 2 GND))
     (pad 1 thru_hole rect (at 3.75 -3.75 180) (size 1.4 2.5) (drill oval 0.7 2) (layers *.Cu *.Mask F.SilkS)
       (net 57 "/Input connector & power/SOUNDOUT"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/RCA_white.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/RCA_white.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.8 1 0.8))
       (rotate (xyz 0 0 0))
@@ -630,7 +630,7 @@
       (net 2 GND))
     (pad 1 thru_hole rect (at 3.75 -3.75 180) (size 1.4 2.5) (drill oval 0.7 2) (layers *.Cu *.Mask F.SilkS)
       (net 58 "/Output connectors/CVBS"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/RCA_yellow.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/RCA_yellow.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.8 1 0.8))
       (rotate (xyz 0 0 0))
@@ -706,7 +706,7 @@
       (net 72 "Net-(U2-Pad12)"))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/DIP-20_300.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/DIP-20_300.wrl
       (offset (xyz 3.75 -11.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -831,7 +831,7 @@
       (net 2 GND))
     (pad 42 thru_hole oval (at 20.32 -1.27 90) (size 1.5 2) (drill 1 (offset 0 -0.25)) (layers *.Cu *.Mask F.SilkS)
       (net 4 "Net-(J1-Pad42)"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/GFX_conn.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/GFX_conn.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -915,7 +915,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 "Net-(C1-Pad1)"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Disc_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.5 1))
       (rotate (xyz 0 0 0))
@@ -954,7 +954,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 "Net-(C2-Pad1)"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Disc_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.5 1))
       (rotate (xyz 0 0 0))
@@ -993,7 +993,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 40 ~))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Disc_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.5 1))
       (rotate (xyz 0 0 0))
@@ -1032,7 +1032,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 40 ~))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Disc_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.5 1))
       (rotate (xyz 0 0 0))
@@ -1071,7 +1071,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 40 ~))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Disc_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.5 1))
       (rotate (xyz 0 0 0))
@@ -1110,7 +1110,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 40 ~))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Disc_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.5 1))
       (rotate (xyz 0 0 0))
@@ -1149,7 +1149,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 40 ~))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Disc_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.5 1))
       (rotate (xyz 0 0 0))
@@ -1188,7 +1188,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 40 ~))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Disc_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.5 1))
       (rotate (xyz 0 0 0))
@@ -1227,7 +1227,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 40 ~))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Disc_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.5 1))
       (rotate (xyz 0 0 0))
@@ -1378,7 +1378,7 @@
       (net 2 GND))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 40 ~))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Radial_capacitor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Radial_capacitor.wrl
       (offset (xyz 0 0 1.269999980926514))
       (scale (xyz 1 1 2))
       (rotate (xyz 0 0 0))
@@ -1416,7 +1416,7 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 58 "/Output connectors/CVBS"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Axial_resistor.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Axial_resistor.wrl
       (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -1480,7 +1480,7 @@
       (net 34 "Net-(U2-Pad11)"))
     (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 60 "/VRAM Decoding Logic/~WR"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/DIP-14_300.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/DIP-14_300.wrl
       (offset (xyz 4 -7.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1556,7 +1556,7 @@
       (net 74 "/VRAM Decoding Logic/WR"))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 73 "/VRAM Decoding Logic/RD"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/DIP-20_300.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/DIP-20_300.wrl
       (offset (xyz 3.75 -11.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1632,7 +1632,7 @@
       (net 71 "Net-(U2-Pad6)"))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/DIP-20_300.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/DIP-20_300.wrl
       (offset (xyz 3.75 -11.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1696,7 +1696,7 @@
       (net 39 "Net-(U7-Pad8)"))
     (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 45 "/Input connector & power/~WR"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/DIP-14_300.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/DIP-14_300.wrl
       (offset (xyz 4 -7.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1767,7 +1767,7 @@
       (net 3 "Net-(C2-Pad1)"))
     (pad 1 thru_hole circle (at -2.44094 0 90) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask)
       (net 1 "Net-(C1-Pad1)"))
-    (model ${KIPRJMOD}/../libs/artemisa.3dshapes/Crystal.wrl
+    (model ${KIPRJMOD}/libs/artemisa.3dshapes/Crystal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
