@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:gfx-9918-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -16,11 +15,11 @@ Comment4 ""
 $EndDescr
 Text HLabel 3600 3000 0    50   Input ~ 0
 ~WR
-Text HLabel 3600 3800 0    50   Input ~ 0
+Text HLabel 3600 4600 0    50   Input ~ 0
 ~RD
-Text HLabel 3600 3400 0    50   Input ~ 0
+Text HLabel 3600 3800 0    50   Input ~ 0
 ~VDPIOSL
-Text HLabel 5450 3700 2    50   Output ~ 0
+Text HLabel 5450 4500 2    50   Output ~ 0
 ~CSR
 Text HLabel 5450 3100 2    50   Output ~ 0
 ~CSW
@@ -32,8 +31,8 @@ AR Path="/5E97C4CB" Ref="U?"  Part="1"
 AR Path="/5E974557/5E97C4CB" Ref="U7"  Part="1" 
 AR Path="/5EB649E5/5EB76C70/5E97C4CB" Ref="U?"  Part="1" 
 AR Path="/5EDF1B60/5EE07BC9/5E97C4CB" Ref="U?"  Part="1" 
-F 0 "U7" H 4675 3425 50  0000 C CNN
-F 1 "74HC32" H 4675 3334 50  0000 C CNN
+F 0 "U7" H 4350 3350 50  0000 C CNN
+F 1 "74HC32" H 4350 2850 50  0000 C CNN
 F 2 "artemisa:DIP-14_300" H 4650 3100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf" H 4650 3100 50  0001 C CNN
 	1    4650 3100
@@ -42,37 +41,34 @@ $EndComp
 $Comp
 L artemisa:74HC32 U?
 U 2 2 5E97C4D1
-P 4650 3700
+P 4650 4500
 AR Path="/5E97C4D1" Ref="U?"  Part="2" 
 AR Path="/5E974557/5E97C4D1" Ref="U7"  Part="2" 
 AR Path="/5EB649E5/5EB76C70/5E97C4D1" Ref="U?"  Part="2" 
 AR Path="/5EDF1B60/5EE07BC9/5E97C4D1" Ref="U?"  Part="2" 
-F 0 "U7" H 4675 4025 50  0000 C CNN
-F 1 "74HC32" H 4675 3934 50  0000 C CNN
-F 2 "artemisa:DIP-14_300" H 4650 3700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf" H 4650 3700 50  0001 C CNN
-	2    4650 3700
+F 0 "U7" H 4675 4825 50  0000 C CNN
+F 1 "74HC32" H 4675 4734 50  0000 C CNN
+F 2 "artemisa:DIP-14_300" H 4650 4500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf" H 4650 4500 50  0001 C CNN
+	2    4650 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3600 3000 4250 3000
 Wire Wire Line
-	3600 3800 4250 3800
+	3600 4600 4250 4600
 Wire Wire Line
-	3600 3400 4050 3400
+	3600 3800 4050 3800
 Wire Wire Line
-	4050 3400 4050 3200
+	4050 3800 4050 3200
 Wire Wire Line
 	4050 3200 4250 3200
 Wire Wire Line
-	4050 3400 4050 3600
-Wire Wire Line
-	4050 3600 4250 3600
-Connection ~ 4050 3400
+	4050 4400 4250 4400
 Wire Wire Line
 	5450 3100 5100 3100
 Wire Wire Line
-	5450 3700 5100 3700
+	5450 4500 5100 4500
 $Comp
 L artemisa:74HC32 U?
 U 3 2 5EB4178B
@@ -139,4 +135,74 @@ F 3 "" H 6550 4200 60  0001 C CNN
 	1    6550 4200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4050 3800 4050 4400
+Connection ~ 4050 3800
+$Comp
+L artemisa:Cap C?
+U 1 1 6093BFFA
+P 5100 2550
+AR Path="/6093BFFA" Ref="C?"  Part="1" 
+AR Path="/5EB649E5/6093BFFA" Ref="C?"  Part="1" 
+AR Path="/5E974557/6093BFFA" Ref="C9"  Part="1" 
+F 0 "C9" V 5250 2550 50  0000 C CNN
+F 1 "100nF" V 4950 2550 50  0000 C CNN
+F 2 "artemisa:Disc_capacitor" H 5100 2550 50  0001 C CNN
+F 3 "" H 5100 2550 50  0001 C CNN
+	1    5100 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L artemisa:VCC #PWR?
+U 1 1 60940A65
+P 4650 2300
+AR Path="/60940A65" Ref="#PWR?"  Part="1" 
+AR Path="/5EB649E5/60940A65" Ref="#PWR?"  Part="1" 
+AR Path="/5E974557/60940A65" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 2250 60  0001 C CNN
+F 1 "VCC" H 4650 2550 60  0001 C CNN
+F 2 "" H 4650 2300 60  0001 C CNN
+F 3 "" H 4650 2300 60  0001 C CNN
+	1    4650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L artemisa:GND #PWR?
+U 1 1 60940A6B
+P 4650 3400
+AR Path="/60940A6B" Ref="#PWR?"  Part="1" 
+AR Path="/5EB649E5/60940A6B" Ref="#PWR?"  Part="1" 
+AR Path="/5E974557/60940A6B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 3300 60  0001 C CNN
+F 1 "GND" H 4650 3500 60  0001 C CNN
+F 2 "" H 4650 3400 60  0001 C CNN
+F 3 "" H 4650 3400 60  0001 C CNN
+	1    4650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2300 4650 2550
+Wire Wire Line
+	5000 2550 4650 2550
+Connection ~ 4650 2550
+Wire Wire Line
+	4650 2550 4650 2800
+$Comp
+L artemisa:GND #PWR?
+U 1 1 60942285
+P 5500 2750
+AR Path="/60942285" Ref="#PWR?"  Part="1" 
+AR Path="/5EB649E5/60942285" Ref="#PWR?"  Part="1" 
+AR Path="/5E974557/60942285" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5500 2650 60  0001 C CNN
+F 1 "GND" H 5500 2850 60  0001 C CNN
+F 2 "" H 5500 2750 60  0001 C CNN
+F 3 "" H 5500 2750 60  0001 C CNN
+	1    5500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2750 5500 2550
+Wire Wire Line
+	5200 2550 5500 2550
 $EndSCHEMATC

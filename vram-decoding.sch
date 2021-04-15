@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:gfx-9918-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,8 +29,8 @@ U 1 1 5F00B88C
 P 2300 2900
 AR Path="/5F00B88C" Ref="U?"  Part="1" 
 AR Path="/5EFF5D57/5F00B88C" Ref="U2"  Part="1" 
-F 0 "U2" H 2450 3000 50  0000 C CNN
-F 1 "74HCT04" H 2500 2800 50  0000 C CNN
+F 0 "U2" H 2100 3050 50  0000 C CNN
+F 1 "74HCT04" H 2050 2750 50  0000 C CNN
 F 2 "artemisa:DIP-14_300" H 2300 2900 50  0001 C CNN
 F 3 "" H 2300 2900 50  0001 C CNN
 	1    2300 2900
@@ -40,14 +39,14 @@ $EndComp
 $Comp
 L artemisa:74HCT04 U?
 U 2 1 5F00B892
-P 2300 3400
+P 2300 3550
 AR Path="/5F00B892" Ref="U?"  Part="2" 
 AR Path="/5EFF5D57/5F00B892" Ref="U2"  Part="2" 
-F 0 "U2" H 2450 3500 50  0000 C CNN
-F 1 "74HCT04" H 2500 3300 50  0000 C CNN
-F 2 "artemisa:DIP-14_300" H 2300 3400 50  0001 C CNN
-F 3 "" H 2300 3400 50  0001 C CNN
-	2    2300 3400
+F 0 "U2" H 2450 3650 50  0000 C CNN
+F 1 "74HCT04" H 2500 3450 50  0000 C CNN
+F 2 "artemisa:DIP-14_300" H 2300 3550 50  0001 C CNN
+F 3 "" H 2300 3550 50  0001 C CNN
+	2    2300 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -66,16 +65,16 @@ $EndComp
 Wire Wire Line
 	2600 2900 2750 2900
 Wire Wire Line
-	2750 2900 2750 3150
+	2750 2900 2750 3300
 Wire Wire Line
-	2750 3150 1850 3150
+	2750 3300 1850 3300
 Wire Wire Line
-	1850 3150 1850 3400
+	1850 3300 1850 3550
 Wire Wire Line
-	1850 3400 2000 3400
+	1850 3550 2000 3550
 Connection ~ 2750 2900
 Wire Wire Line
-	2600 3400 3000 3400
+	2600 3550 3000 3550
 Wire Wire Line
 	2650 4150 5300 4150
 $Comp
@@ -368,7 +367,7 @@ Entry Wire Line
 	4050 5600 4150 5700
 Entry Wire Line
 	4150 5000 4050 4900
-Connection ~ 3000 3400
+Connection ~ 3000 3550
 Entry Bus Bus
 	3950 1200 4050 1300
 Wire Bus Line
@@ -433,7 +432,7 @@ F 3 "" H 6050 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3000 2500 3000 3400
+	3000 2500 3000 3550
 Wire Wire Line
 	2900 2400 2900 2900
 Connection ~ 2900 2900
@@ -623,10 +622,10 @@ Wire Wire Line
 	1100 2900 2000 2900
 Text HLabel 3450 2900 2    50   Output ~ 0
 WR
-Text HLabel 3450 3400 2    50   Output ~ 0
+Text HLabel 3450 3550 2    50   Output ~ 0
 RD
 Wire Wire Line
-	3000 3400 3450 3400
+	3000 3550 3450 3550
 Wire Wire Line
 	3450 2900 2900 2900
 Entry Wire Line
@@ -723,6 +722,70 @@ Wire Wire Line
 	6400 5600 7650 5600
 Wire Wire Line
 	6400 5700 7650 5700
+$Comp
+L artemisa:Cap C?
+U 1 1 60945F6A
+P 1850 2450
+AR Path="/60945F6A" Ref="C?"  Part="1" 
+AR Path="/5EB649E5/60945F6A" Ref="C?"  Part="1" 
+AR Path="/5EFF5D57/60945F6A" Ref="C8"  Part="1" 
+F 0 "C8" V 1700 2450 50  0000 C CNN
+F 1 "100nF" V 2000 2450 50  0000 C CNN
+F 2 "artemisa:Disc_capacitor" H 1850 2450 50  0001 C CNN
+F 3 "" H 1850 2450 50  0001 C CNN
+	1    1850 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 2450 1500 2450
+$Comp
+L artemisa:VCC #PWR?
+U 1 1 6094C96C
+P 2300 2250
+AR Path="/6094C96C" Ref="#PWR?"  Part="1" 
+AR Path="/5EFF5D57/6094C96C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 2200 60  0001 C CNN
+F 1 "VCC" H 2300 2500 60  0001 C CNN
+F 2 "" H 2300 2250 60  0001 C CNN
+F 3 "" H 2300 2250 60  0001 C CNN
+	1    2300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2250 2300 2450
+Wire Wire Line
+	1950 2450 2300 2450
+Wire Wire Line
+	2300 2450 2300 2700
+Connection ~ 2300 2450
+$Comp
+L artemisa:GND #PWR?
+U 1 1 60953EAD
+P 1500 2650
+AR Path="/60953EAD" Ref="#PWR?"  Part="1" 
+AR Path="/5EFF5D57/60953EAD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 2550 60  0001 C CNN
+F 1 "GND" H 1500 2750 60  0001 C CNN
+F 2 "" H 1500 2650 60  0001 C CNN
+F 3 "" H 1500 2650 60  0001 C CNN
+	1    1500 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2650 1500 2450
+$Comp
+L artemisa:GND #PWR?
+U 1 1 6095BDEA
+P 2300 3100
+AR Path="/6095BDEA" Ref="#PWR?"  Part="1" 
+AR Path="/5EFF5D57/6095BDEA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 3000 60  0001 C CNN
+F 1 "GND" H 2300 3200 60  0001 C CNN
+F 2 "" H 2300 3100 60  0001 C CNN
+F 3 "" H 2300 3100 60  0001 C CNN
+	1    2300 3100
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	7750 1400 7750 2500
 Wire Bus Line
